@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-section">
+      <div class="header-section">
+        <h1 class="header">To-Do App</h1>
+      </div>
+
+      <div class="input-section">
+        <input id="task-title" type="text" placeholder="Task Title" />
+        <textarea
+          id="task-detail"
+          rows="3"
+          placeholder="Task Details"
+        ></textarea>
+        <button id="submit">Add Task</button>
+      </div>
+
+      <div class="cards-container" id="task-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
